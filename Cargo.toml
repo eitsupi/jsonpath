@@ -25,7 +25,7 @@ serde_json = { version = "1.0", features = ["preserve_order"] }
 env_logger = "0.8"
 
 [lib]
-name = "jsonpath_lib_polars_vendor"
+name = "jsonpath_lib"
 path = "src/lib.rs"
 crate-type = ["cdylib", "rlib"]
 
